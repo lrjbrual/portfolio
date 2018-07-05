@@ -1,3 +1,16 @@
-// Place all the styles related to the pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.banner-image {
+  background-image: image-url('antoine-barres.jpg');
+}
+.banner-image-about {
+  background-image: image-url('lagon.jpg');
+}
+.moving-clouds{
+  background-image: image-url('clouds.png');
+}
+// About Profiles
+.profile-content {
+  position: relative;
+  padding-top: 0;
+  z-index: 2;
+}
+

@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,300,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css');
+
+@import "bootstrap-sprockets";
+//@import "bootstrap-datetimepicker";
+//@import "bootstrap_datetimepicker/dates";
+@import "sweetalert2";
+
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+//Paper-Kit Sass
+@import "paper-kit";
+
+//Paper-Kit CSS
+@import "css/bootstrap.min";
+@import "css/nucleo-icons";
+@import "css/paper-kit";
+
+//Pages Folder
+@import "pages";
+
