@@ -6,8 +6,7 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require rails-ujs
-//= require paper-kit/application.js
-//= require popper
+//= require paper-kit/application
 //= require sweetalert2
 //= require sweet-alert2-rails
 //= require bootstrap_notify
