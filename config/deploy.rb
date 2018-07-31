@@ -2,7 +2,7 @@ require "bundler/capistrano"
 require "rvm/capistrano"
 
 # server "123.123.123.123", :web, :app, :db, primary: true
-server "127.0.0.0", :web, :app, :db, primary: true
+server "128.199.40.47", :web, :app, :db, primary: true
 
 set :application, "portfolio"
 set :user, "ryanjeff"
@@ -12,7 +12,7 @@ set :deploy_via, :remote_cache
 set :use_sudo, false
 
 set :scm, "git"
-set :repository, "git@github.com:username/#{application}.git"
+set :repository, "git@github.com:lrjbrual/#{application}.git"
 set :branch, "master"
 
 
