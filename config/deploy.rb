@@ -4,8 +4,8 @@ require "rvm/capistrano"
 
 # server "123.123.123.123", :web, :app, :db, primary: true
 server "128.199.40.47", :web, :app, :db, primary: true
-
-set :default_shell, "/bin/bash -l"
+	
+sets  :rvm_bin_path, "/usr/local/rvm/bin"
 set :application, "portfolio"
 set :user, "ryanjeff"
 set :port, 22
