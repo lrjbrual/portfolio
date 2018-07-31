@@ -1,13 +1,11 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="100">
     <div class="container">
         <div class="navbar-translate">
-            <a class="navbar-brand">Invent your knowledge idea</a>
+            <a class="navbar-brand" href="../#mainBanner">Keep rolling, no matter WHAT</a>
             <button class="navbar-toggler navbar-toggler-right navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-bar">
-
                 </span>
                 <span class="navbar-toggler-bar">
-
                 <span class="navbar-toggler-bar"></span>
             </button>
         </div>
@@ -19,12 +17,17 @@
                     <% end %>
                 </li>
                 <li class="nav-item">
-                    <%= link_to "../#aboutRj", class: "nav-link" do %>
-                        <i class="nc-icon nc-book-bookmark"></i>  About RJ
+                    <%= link_to "../#articles", class: "nav-link" do %>
+                        <i class="nc-icon nc-tv-2"></i>  Video Tutorials
                     <% end %>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" rel="tooltip" title="Star on GitHub" data-placement="bottom" href="https://www.github.com/CreativeTimOfficial" target="_blank">
+                    <%= link_to "../#aboutRj", class: "nav-link" do %>
+                        <i class="nc-icon nc-book-bookmark"></i>  About RyanJeff
+                    <% end %>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" rel="tooltip" title="Star on GitHub" data-placement="bottom" href="https://github.com/lrjbrual" target="_blank">
                         <i class="fa fa-github"></i>
                         <p class="d-lg-none">GitHub</p>
                     </a>

@@ -1,10 +1,13 @@
-<div class="pages-header banner-image" data-parallax="true">
+<div class="pages-header banner-image" data-parallax="true" id="mainBanner">
   <div class="filter">
   </div>
   <div class="container">
     <div class="motto text-center">
-      <h2 class="presentation-title" >RyanJeff</h2>
-      <h3>Let's bring your idea in to reality</h3>
+      <h2 class="presentation-title" ><%= @owner %></h2>
+      <h2 class="presentation-title" ><%= @title %></h2>
+      <h3>
+        <span id="banner-typed-text"></span>
+      </h3>
       <br />
         <a href="#" class="btn btn-outline-neutral btn-round">
           <i class="fa fa-play"></i>Latest Video Tutorial

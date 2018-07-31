@@ -1,8 +1,8 @@
-<div class="main section text-center" id="articles">
+<div class="main section text-center topSpacing">
       <div class="container">
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto">
-                    <%# <h2 class="title">Projects and Tutorials</h2> %>
+                    <h2 class="title"><%= @title1 %></h2>
                     <div class="typography-line">
                     <blockquote class="blockquote">
                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -13,18 +13,27 @@
             </div>
           <br/><br/>
             <div class="row">
-                <div class="col-4 col-sm-6 col-md-4">
-                <%= image_tag "uriel-soberanes.jpg", alt:"Rounded Image", class:"img-rounded img-responsive" %>
-                    <div class="img-details">
-                        <div class="author">
-                            <%= image_tag "faces/meandyou.jpeg", alt:"Circle Image", class:"img-circle img-no-padding img-responsive" %>
+                    <div class="col-4 col-sm-6 col-md-4 mr-auto  ml-auto">
+                        <%= image_tag "uriel-soberanes.jpg", alt:"Rounded Image", class:"img-rounded img-responsive" %>
+                        <div class="img-details">
+                            <div class="author">
+                                <%= image_tag "faces/meandyou.jpeg", alt:"Circle Image", class:"img-circle img-no-padding img-responsive" %>
+                            </div>
+                            <h5 class="info-title">Video Tutorial</h5>
+                        <div class="toggle">
+                            <div class="toggle-title ">
+                                <p>
+                                <span class="title-name btn btn-link btn-primary">Summary</span>
+                                </p>
+                            </div>
+                            <div class="toggle-inner">
+                                <p>Astronomers face an embarrassing conundrum: they don't know what 95% of the universe is made of. </p>
+                            </div>
+                            </div><!-- End Toggle -->
+                            <a href="#pkp" class="btn btn-outline-danger btn-round">See more</a>
                         </div>
-                        <h5 class="info-title">Blog</h5>
-                        <p>Chet Faker</p>
-                        <a href="#pkp" class="btn btn-outline-danger btn-round">See more</a>
                     </div>
-                </div>
-                <div class="col-4 col-sm-6 col-md-4">
+                <%# <div class="col-4 col-sm-6 col-md-4">
                     <div class="info">
                         <div class="icon icon-danger">
                             <i class="nc-icon nc-bulb-63"></i>
@@ -35,24 +44,131 @@
                             <a href="#pkp" class="btn btn-outline-danger btn-round">See more</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-4 col-sm-6 col-md-4">
-                    <%= image_tag "uriel-soberanes.jpg", alt:"Rounded Image", class:"img-rounded img-responsive" %>
-                    <div class="img-details">
-                        <div class="author">
-                            <%= image_tag "faces/meandyou.jpeg", alt:"Circle Image", class:"img-circle img-no-padding img-responsive" %>
+                </div> %>
+                    <div class="col-4 col-sm-6 col-md-4 mr-auto  ml-auto">
+                        <%= image_tag "uriel-soberanes.jpg", alt:"Rounded Image", class:"img-rounded img-responsive" %>
+                        <div class="img-details">
+                            <div class="author">
+                                <%= image_tag "faces/meandyou.jpeg", alt:"Circle Image", class:"img-circle img-no-padding img-responsive" %>
+                            </div>
+                            <h5 class="info-title">Video Tutorial</h5>
+                        <div class="toggle">
+                            <div class="toggle-title ">
+                                <p>
+                                <span class="title-name btn btn-link btn-primary">Summary</span>
+                                </p>
+                            </div>
+                            <div class="toggle-inner">
+                                <p>Astronomers face an embarrassing conundrum: they don't know what 95% of the universe is made of.</p>
+                            </div>
+                            </div><!-- End Toggle -->
+                            <a href="#pkp" class="btn btn-outline-danger btn-round">See more</a>
                         </div>
-                        <h5 class="info-title">Video Tutorial</h5>
-                        <p>Chet Faker</p>
-                        <a href="#pkp" class="btn btn-outline-danger btn-round">See more</a>
                     </div>
-                </div>
 				</div>
-            <div class="row">
-                <div class="col-md-8 ml-auto mr-auto">
+            <%# <div class="row">
+                <div class="col-md-8 ml-auto mr-auto ">
                     <br>
                     <a href="#paper-kit" class="btn btn-danger btn-round">Learn More</a>
                 </div>
+            </div> %>
+      </div>
+</div>
+<div class="text-center">
+      <div class="container">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto">
+                    <h2 class="title"><%= @title2 %></h2>
+                    <div class="typography-line">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Someone famous in <cite title="source Title">Source Title</cite></footer>
+                    </blockquote>
+                    </div>  
+                </div>
             </div>
+          <br/><br/>
+            <div class="row">
+                    <div class="col-4 col-sm-6 col-md-4 mr-auto  ml-auto">
+                        <%= image_tag "uriel-soberanes.jpg", alt:"Rounded Image", class:"img-rounded img-responsive" %>
+                        <div class="img-details">
+                            <div class="author">
+                                <%= image_tag "faces/meandyou.jpeg", alt:"Circle Image", class:"img-circle img-no-padding img-responsive" %>
+                            </div>
+                            <h5 class="info-title">Video Tutorial</h5>
+                        <div class="toggle">
+                            <div class="toggle-title ">
+                                <p>
+                                <span class="title-name btn btn-link btn-primary">Summary</span>
+                                </p>
+                            </div>
+                            <div class="toggle-inner">
+                                <p>Astronomers face an embarrassing conundrum: they don't know what 95% of the universe is made of. </p>
+                            </div>
+                            </div><!-- End Toggle -->
+                            <a href="#pkp" class="btn btn-outline-danger btn-round">See more</a>
+                        </div>
+                    </div>
+                    <div class="col-4 col-sm-6 col-md-4 mr-auto  ml-auto">
+                        <%= image_tag "uriel-soberanes.jpg", alt:"Rounded Image", class:"img-rounded img-responsive" %>
+                        <div class="img-details">
+                            <div class="author">
+                                <%= image_tag "faces/meandyou.jpeg", alt:"Circle Image", class:"img-circle img-no-padding img-responsive" %>
+                            </div>
+                            <h5 class="info-title">Video Tutorial</h5>
+                        <div class="toggle">
+                            <div class="toggle-title ">
+                                <p>
+                                <span class="title-name btn btn-link btn-primary">Summary</span>
+                                </p>
+                            </div>
+                            <div class="toggle-inner">
+                                <p>Astronomers face an embarrassing conundrum: they don't know what 95% of the universe is made of.</p>
+                            </div>
+                            </div><!-- End Toggle -->
+                            <a href="#pkp" class="btn btn-outline-danger btn-round">See more</a>
+                        </div>
+                    </div>
+                                        <div class="col-4 col-sm-6 col-md-4 mr-auto  ml-auto">
+                        <%= image_tag "uriel-soberanes.jpg", alt:"Rounded Image", class:"img-rounded img-responsive" %>
+                        <div class="img-details">
+                            <div class="author">
+                                <%= image_tag "faces/meandyou.jpeg", alt:"Circle Image", class:"img-circle img-no-padding img-responsive" %>
+                            </div>
+                            <h5 class="info-title">Video Tutorial</h5>
+                        <div class="toggle">
+                            <div class="toggle-title ">
+                                <p>
+                                <span class="title-name btn btn-link btn-primary">Summary</span>
+                                </p>
+                            </div>
+                            <div class="toggle-inner">
+                                <p>Astronomers face an embarrassing conundrum: they don't know what 95% of the universe is made of. </p>
+                            </div>
+                            </div><!-- End Toggle -->
+                            <a href="#pkp" class="btn btn-outline-danger btn-round">See more</a>
+                        </div>
+                    </div>
+                                        <div class="col-4 col-sm-6 col-md-4 mr-auto  ml-auto">
+                        <%= image_tag "uriel-soberanes.jpg", alt:"Rounded Image", class:"img-rounded img-responsive" %>
+                        <div class="img-details">
+                            <div class="author">
+                                <%= image_tag "faces/meandyou.jpeg", alt:"Circle Image", class:"img-circle img-no-padding img-responsive" %>
+                            </div>
+                            <h5 class="info-title">Video Tutorial</h5>
+                        <div class="toggle">
+                            <div class="toggle-title ">
+                                <p>
+                                <span class="title-name btn btn-link btn-primary">Summary</span>
+                                </p>
+                            </div>
+                            <div class="toggle-inner">
+                                <p>Astronomers face an embarrassing conundrum: they don't know what 95% of the universe is made of. </p>
+                            </div>
+                            </div><!-- End Toggle -->
+                            <a href="#pkp" class="btn btn-outline-danger btn-round">See more</a>
+                        </div>
+                    </div>
+				</div>
       </div>
 </div>

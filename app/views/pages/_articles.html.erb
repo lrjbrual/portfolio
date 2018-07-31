@@ -5,8 +5,8 @@
                     <%# <h2 class="title">Projects and Tutorials</h2> %>
                     <div class="typography-line">
                     <blockquote class="blockquote">
-                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                        <footer class="blockquote-footer">Someone famous in <cite title="source Title">Source Title</cite></footer>
+                        <p class="mb-0"><%= @articleTitle %></p>
+                        <footer class="blockquote-footer"><%= @owner %></footer>
                     </blockquote>
                     </div>  
                 </div>
@@ -24,18 +24,20 @@
                         <a href="#pkp" class="btn btn-outline-danger btn-round">See more</a>
                     </div>
                 </div>
+                <!-- Idea projects -->
                 <div class="col-4 col-sm-6 col-md-4">
                     <div class="info">
                         <div class="icon icon-danger">
                             <i class="nc-icon nc-bulb-63"></i>
                         </div>
                         <div class="description">
-                            <h4 class="info-title">New Ideas</h4>
-                            <p>Larger, yet dramatically thinner. More powerful, but remarkably power efficient.</p>
-                            <a href="#pkp" class="btn btn-outline-danger btn-round">See more</a>
+                            <h4 class="info-title"><%= @ideaTitle %>?</h4>
+                            <p><%= @idea %></p>
+                            <%= render 'partials/emailbutton'%>
                         </div>
                     </div>
                 </div>
+                <!-- END Idea projects -->
                 <div class="col-4 col-sm-6 col-md-4">
                     <%= image_tag "uriel-soberanes.jpg", alt:"Rounded Image", class:"img-rounded img-responsive" %>
                     <div class="img-details">
@@ -51,7 +53,9 @@
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto">
                     <br>
-                    <a href="#paper-kit" class="btn btn-danger btn-round">Learn More</a>
+                    <%= link_to articles_index_path, class: 'btn btn-danger btn-round' do %>
+                        Learn More
+                    <% end %>
                 </div>
             </div>
       </div>

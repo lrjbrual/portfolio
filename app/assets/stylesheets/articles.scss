@@ -1,3 +1,42 @@
-// Place all the styles related to the articles controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.topSpacing{
+  margin-top: 1em;
+}
+
+
+.toggle {
+  &:last-child {
+           border-bottom: 1px solid grey;
+       }
+.toggle-title {
+position: relative;
+display: block;
+//border-top: 1px solid grey;
+margin-bottom: 6px;
+   
+
+p {
+font-size: 15px;
+margin: 0px;
+line-height: 1;
+cursor: pointer;
+font-weight:200;
+
+}
+&.active p {}
+}
+.toggle-inner {
+padding: 7px 25px 10px 25px;
+display: none;
+margin: -7px 0 6px;
+div {
+max-width: 100%;
+}
+}
+.toggle-title {
+a i {
+font-size: 22px;
+//margin-right: 5px;
+}
+
+}
+}

@@ -12,3 +12,5 @@
 //= require paper-kit/application
 //= require activestorage
 //= require turbolinks
+
+
