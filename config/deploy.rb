@@ -3,7 +3,7 @@ lock "~> 3.11.0"
 
 set :application, "portfolio"
 set :repo_url, "git@github.com:lrjbrual/portfolio.git"
-
+set :passenger_restart_with_touch, true
 set :deploy_to, '/home/ryanjeff/portfolio'
 set :rbenv_type, :user
 set :rbenv_ruby, '2.4.2'
