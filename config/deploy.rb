@@ -5,6 +5,8 @@ set :application, "portfolio"
 set :repo_url, "git@github.com:lrjbrual/portfolio.git"
 
 set :deploy_to, '/home/ryanjeff/portfolio'
+set :rbenv_type, :user
+set :rbenv_ruby, '2.4.2'
 
 #set :default_env, { path: "~/.rbenv/shims:~/.rbenv/bin:$PATH" }
 #set :default_env, { rvm_bin_path: '~/.rvm/bin' }

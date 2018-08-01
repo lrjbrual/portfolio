@@ -6,11 +6,9 @@ require "capistrano/deploy"
 
 require 'capistrano/rails'
 require 'capistrano/passenger'
-# require 'capistrano/rbenv'
+require 'capistrano/rbenv'
 #require 'capistrano/bundler'
 
- set :rbenv_type, :user
- set :rbenv_ruby, '2.4.2'
 # Load the SCM plugin appropriate to your project:
 #
 # require "capistrano/scm/hg"
