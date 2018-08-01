@@ -2,7 +2,7 @@
 require "capistrano/setup"
 
 # Include default deployment tasks
-require "capistrano/ryanjeff"
+require "capistrano/deploy"
 
 require 'capistrano/rails'
 require 'capistrano/passenger'
