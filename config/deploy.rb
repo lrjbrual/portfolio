@@ -2,7 +2,7 @@
 lock "~> 3.11.0"
 
 set :application, "portfolio"
-set :repo_url, "git@example.com:lrjbrual/portfolio.git"
+set :repo_url, "git@github.com:lrjbrual/portfolio.git"
 
 set :deploy_to, '/home/ryanjeff/portfolio'
 
