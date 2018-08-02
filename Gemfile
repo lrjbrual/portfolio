@@ -50,7 +50,7 @@ gem 'themify-icons-rails' , github: 'scratch-soft/themify-icons-rails'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
- gem 'listen', '>= 3.0.5', '< 3.2'
+ gem 'listen'
 
 
 # Reduces boot times through caching; required in config/boot.rb
