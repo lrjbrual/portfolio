@@ -50,6 +50,7 @@ gem 'themify-icons-rails' , github: 'scratch-soft/themify-icons-rails'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+ gem 'listen', '>= 3.0.5', '< 3.2'
 
 
 # Reduces boot times through caching; required in config/boot.rb
@@ -67,7 +68,6 @@ group :development do
   gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.3'
   gem 'capistrano-passenger', '~> 0.2.0'
   gem 'web-console', '>= 3.3.0'
-  gem 'listen', '>= 3.0.5', '< 3.2'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
