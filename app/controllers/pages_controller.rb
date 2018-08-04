@@ -9,6 +9,22 @@ class PagesController < ApplicationController
 
   def show
   end
+
+  def new 
+    @page = Page.new
+  end
+
+  def create
+    @page = Page.new(params[:page])
+    @page.request = request
+    if @page.deliver
+      flash.now[:error] = nil
+    redirect_to root_path, notice: 'Message sent successfully'
+    else
+      flash.now[:error] = 'Cannot send message'
+      render new_page_path
+    end
+  end
 end
 
 

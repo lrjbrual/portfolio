@@ -44,12 +44,14 @@ gem 'themify-icons-rails' , github: 'scratch-soft/themify-icons-rails'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
- gem 'listen'
- gem 'google-analytics-rails'
-
+gem 'listen'
+gem 'google-analytics-rails'
+gem 'mail_form'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
+# for security
+gem 'dotenv-rails', groups: [:development, :test]
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
