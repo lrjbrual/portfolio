@@ -2,7 +2,7 @@
   background-image: image-url('antoine-barres.jpg');
 }
 .banner-image-about {
-  background-image: image-url('lagon.jpg');
+  background-image: image-url('mill.jpg');
 }
 .moving-clouds{
   background-image: image-url('clouds.png');
@@ -13,4 +13,7 @@
   padding-top: 0;
   z-index: 2;
 }
-
+.typeBanner{
+  z-index: 200;
+  color: white;
+}
