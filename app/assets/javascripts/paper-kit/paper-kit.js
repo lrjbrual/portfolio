@@ -67,9 +67,10 @@ $(document).ready(function(){
     $('.btn-tooltip').tooltip();
     $('.label-tooltip').tooltip();
 
-	// Carousel
+    // Carousel
+    if (typeof $next == 'object' && $next.length) $next[0].offsetWidth // force reflow
 	$('.carousel').carousel({
-      interval: 4000
+      interval: 20000
     });
 
     $('.form-control').on("focus", function(){

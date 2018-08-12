@@ -4089,16 +4089,16 @@ textarea.form-control {
   width: 100%;
 }
 
-.carousel-indicators {
+.carousel-indicator {
   bottom: 0px;
 }
 
-.carousel-indicators li {
+.carousel-indicator li {
   background-color: #FFFFFF;
   border: 0 none;
 }
 
-.carousel-indicators .active {
+.carousel-indicator .active {
   background-color: #f5593d;
 }
 
@@ -5852,7 +5852,7 @@ textarea.form-control {
 }
 
 .presentation-title {
-  font-size: 8em;
+  font-size: 6em;
   font-weight: 700;
   margin: 0;
   color: #FFFFFF;
