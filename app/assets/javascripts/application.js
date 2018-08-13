@@ -11,6 +11,7 @@
 //= require bootstrap_notify
 //= require paper-kit/application
 //= require activestorage
+//= require gdpr/cookie_consent
 //= require turbolinks
 
 

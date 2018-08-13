@@ -47,6 +47,7 @@ gem 'themify-icons-rails' , github: 'scratch-soft/themify-icons-rails'
 gem 'listen'
 gem 'google-analytics-rails'
 gem 'mail_form'
+gem 'gdpr'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false

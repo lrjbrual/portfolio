@@ -5,6 +5,7 @@
 //@import "bootstrap-datetimepicker";
 //@import "bootstrap_datetimepicker/dates";
 @import "sweetalert2";
+@import 'gdpr/cookie_consent';
 
 @import "bootstrap";
 @import "font-awesome-sprockets";
@@ -20,5 +21,5 @@
 
 //Pages Folder
 @import "pages";
-@import "articles";
+@import "blogs";
 
