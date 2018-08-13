@@ -1,6 +1,6 @@
-class ArticlesController < ApplicationController
+class BlogsController < ApplicationController
   def index
-    @title1 = 'Articles'
+    @title1 = 'Blogs'
     @title2 = 'Video Tutorials'
   end
 
