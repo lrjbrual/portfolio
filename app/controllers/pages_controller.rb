@@ -43,10 +43,10 @@ class PagesController < ApplicationController
     @page = Page.new(params[:page])
     @page.request = request
     if @page.deliver
-      flash.now[:error] = nil
-    redirect_to root_path, notice: 'Message sent successfully'
+      flash.now[:toastr] = "('I am a toast!', 4000)"
+    redirect_to root_path
     else
-      flash.now[:error] = 'Cannot send message'
+      flash.now[:alert] = 'Cannot send message'
       render new_page_path
     end
   end
