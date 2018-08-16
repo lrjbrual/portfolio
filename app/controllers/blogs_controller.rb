@@ -1,6 +1,8 @@
 class BlogsController < ApplicationController
   def index
+    @owner = "RyanJeff"
     @title1 = 'Everday Learning'
+    @inspiration = "Challenge in life is like everyday learning. Learn from mistake, Understand, Keep in mind, and Success"
     @article1 = 'The Lead Entrepreneur'
     @summary1 = 'Many small companies such as startup and or franchising company has no fashion to lead the team.'
     @article2 = 'Strategic Management'
@@ -16,6 +18,8 @@ class BlogsController < ApplicationController
     @article7 = 'ISIS Design and Configuration'
     @summary7 = 'ISIS- was originally designed for the OSI protocol suite. The connectionless network services (CLNS) is used by the OSI protocols, and layer3 routing protocols used in connectionless network protocol (CLNP). ISIS is one of two protocols defined by the 
                  OSI at the network layer. Form of running ISIS on cisco router is integrated ISIS which support both CLNP and IP. - old blog post.'
+    @article8 = 'How to enable remote access to PostgreSQL Server'
+    @summary8 = 'In this simple tutorial you will learn on how to remote your PostgreSQL Server from your local machine via pgadmin4.'
   end
 
   def new
