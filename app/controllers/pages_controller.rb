@@ -14,22 +14,22 @@ class PagesController < ApplicationController
     @ownerWork6 = 'General Data Protection Regulation (GDPR)'
     @ownerWork7 = 'Web Application Security Assessment'
     @paragraph1 = 'a tech geek, missionary and husband of a beautiful dutch woman.'
-    @paragraph2 = "I've been in IT industry for almost 12 years now, I started my carreer in Telecoms that focus on LAN/WAN
-    Design and Implementation for 1 year and 6 months, then I move to ITO Service Delivery and Business Process 
-    Outsourcing Industry that focus on the technologies area of Server, Storage & Backup and Data Center 
-    Infrastructur and Architecture for 4 years and 3 months with the certification of Cisco and ITILV3. 
-    Because of my eagerness I move to Italy and join as IT Director of small travel agency for 2years and 
-    1 month focus on the API development of amadeus for flights and tours, that is the time my career changed."
-    @paragraph3 = "I leave the company and re-invent my path again for new challenge I worked as professor for University for postgraduate
-    curriculum I teach Financial Management and Business Process Management it is super challenging and 
-    rewarding when you see the student move up on their career. during those times I continue my knowledge of developing API using REST API of Ruby on Rails until I became a freelancer for 
-    small projects, and that is the time I fall in love with my new career in Software Development industry. "
-    @paragraph4 = "I worked in TrendleAnalytics focus on the Amazon Marketplace Web Service using API, Web Development and CI/CD
-    as IT Project Manager & Software Development Team Lead my team worked as a remote with 6 smart developers it is fun and challenging that make me more agressive to involve Software Development career. 
-    Now I associated in"
-    @paragraph5 = "as an IT Consultant and Solution Architect that offer a project management services focus on Software Development
-    and IT Service Delivery Management."
-    @paragraph6 = "My career in IT is now focusing in Software Technology with almost 6 years with hardship, failed, and trials. Let's connect in Linkedin: "
+    @paragraph2 = "I've been in IT industry for almost 12 years now, I started my career in Telecoms that focused on the Design and 
+    Implementation of LAN/WAN for 1 year and 6 months. Then I moved to ITO Service Delivery and Business Process Outsourcing Industry 
+    that focused on the technologies area of Server, Storage & Backup and Data Center Infrastructure and Architecture for 4 years and 
+    3 months. During this time I got my certification of Cisco and ITILV3. To expand my knowledge about IT industry I moved to Italy.
+    I joined as IT Director of small travel agency. In the next 2years and 1 month I focused on the API development of Amadeus System 
+    for flights and tours. Because of the knowledge I gained there about software development I changed my career from technical to software." 
+    @paragraph3 = "I left the company and re-invented my path again for a new challenge. I started working as professor for the University 
+    for postgraduate curriculum. I taught Financial Management and Business Process Management. It is super challenging but also rewarding 
+    when you see the students gaining knowledge and moving-up in their career. During those times I continue to expand my knowledge about 
+    software development by developing API using REST API of Ruby on Rails. I became a freelancer for small projects, and that is the 
+    time I fell in love with my new career in Software Development industry. "
+    @paragraph4 = "I worked in TrendleAnalytics which focused on the Amazon Marketplace Web Service using API, Web Development and CI/CD. 
+    I worked as IT Project Manager & Software Development Team Lead. My team, 6 smart developers, worked remotely. It is fun and challenging
+    to lead a team of software developers. Now I am associated with"
+    @paragraph5 = "as an IT Consultant and Solution Architect that offer IT project management services focused on Software Development and IT Service Delivery Management."
+    @paragraph6 = "For 6 years now my career in IT  is focusing on Software Technology. I’m still expanding my knowledge through learning, failures, and success. Let's connect in Linkedin:"
   end
 
   def show
