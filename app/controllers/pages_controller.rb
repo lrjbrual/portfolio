@@ -11,7 +11,7 @@ class PagesController < ApplicationController
     @ownerWork3 = 'IT Governance'
     @ownerWork4 = 'IT Service Delivery Management (ITILv3)'
     @ownerWork5 = 'Software Engineer'
-    @ownerWork6 = 'General Data Protection Regulation (GDPR)'
+    @ownerWork6 = 'Data Protection Officer (GDPR)'
     @ownerWork7 = 'Web Application Security Assessment'
     @paragraph1 = 'a tech geek, missionary and husband of a beautiful dutch woman.'
     @paragraph2 = "I've been in IT industry for almost 12 years now, I started my career in Telecoms that focused on the Design and 
