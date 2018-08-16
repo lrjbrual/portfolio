@@ -6,20 +6,17 @@
                   <h2 class="title"><%= @title1 %></h2>
                   <div class="typography-line">
                   <blockquote class="blockquote">
-                      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                      <footer class="blockquote-footer">Someone famous in <cite title="source Title">Source Title</cite></footer>
+                      <p class="mb-0"><%= @inspiration %></p>
+                      <footer class="blockquote-footer"><%=  @owner %></footer>
                   </blockquote>
                   </div>  
               </div>
           </div>
         <br/><br/>
         <div class="row">
-          <div class="col-md-6 col-sm-12">
-              <%= image_tag "blogs/lead", alt:"Rounded Image", class:"img-rounded img-responsive" %>
+          <div class="col-md-6 col-sm-12 resposinVideo">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/qH9xoWXOIfM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               <div class="img-details">
-                  <div class="author">
-                      <%= image_tag "faces/meandyou.jpeg", alt:"Circle Image", class:"img-circle img-no-padding img-responsive" %>
-                  </div>
                   <h6 class="info-title"><%= @article1 %></h6>
               <div class="toggle">
                   <div class="toggle-title ">
@@ -29,18 +26,14 @@
                   </div>
                   <div class="toggle-inner">
                       <p><%= @summary1 %></p>
-                      <a href="https://www.linkedin.com/pulse/lead-entrepreneur-rj-brual-mba-cobit-5/?published=t" class="btn btn-sm btn-outline-info btn-round" target="_blank" >Learn more</a>
                   </div>
                   </div><!-- End Toggle -->
               </div>
           </div>
-                    <div class="col-md-6 col-sm-12">
-              <%= image_tag "blogs/lead", alt:"Rounded Image", class:"img-rounded img-responsive" %>
+          <div class="col-md-6 col-sm-12 resposinVideo">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/A4pv_NZV2XA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               <div class="img-details">
-                  <div class="author">
-                      <%= image_tag "faces/meandyou.jpeg", alt:"Circle Image", class:"img-circle img-no-padding img-responsive" %>
-                  </div>
-                  <h6 class="info-title"><%= @article1 %></h6>
+                  <h6 class="info-title"><%= @article2 %></h6>
               <div class="toggle">
                   <div class="toggle-title ">
                       <p>
@@ -48,19 +41,15 @@
                       </p>
                   </div>
                   <div class="toggle-inner">
-                      <p><%= @summary1 %></p>
-                      <a href="https://www.linkedin.com/pulse/lead-entrepreneur-rj-brual-mba-cobit-5/?published=t" class="btn btn-sm btn-outline-info btn-round" target="_blank" >Learn more</a>
+                      <p><%= @summary2 %></p>
                   </div>
                   </div><!-- End Toggle -->
               </div>
           </div>
-                    <div class="col-md-6 col-sm-12">
-              <%= image_tag "blogs/lead", alt:"Rounded Image", class:"img-rounded img-responsive" %>
+          <div class="col-md-6 col-sm-12 resposinVideo">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/ZpNA7t3Y3kM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               <div class="img-details">
-                  <div class="author">
-                      <%= image_tag "faces/meandyou.jpeg", alt:"Circle Image", class:"img-circle img-no-padding img-responsive" %>
-                  </div>
-                  <h6 class="info-title"><%= @article1 %></h6>
+                  <h6 class="info-title"><%= @article3 %></h6>
               <div class="toggle">
                   <div class="toggle-title ">
                       <p>
@@ -68,19 +57,15 @@
                       </p>
                   </div>
                   <div class="toggle-inner">
-                      <p><%= @summary1 %></p>
-                      <a href="https://www.linkedin.com/pulse/lead-entrepreneur-rj-brual-mba-cobit-5/?published=t" class="btn btn-sm btn-outline-info btn-round" target="_blank" >Learn more</a>
+                      <p><%= @summary3 %></p>
                   </div>
                   </div><!-- End Toggle -->
               </div>
           </div>
-                    <div class="col-md-6 col-sm-12">
-              <%= image_tag "blogs/lead", alt:"Rounded Image", class:"img-rounded img-responsive" %>
+          <div class="col-md-6 col-sm-12 resposinVideo">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/zxvNZS70810" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               <div class="img-details">
-                  <div class="author">
-                      <%= image_tag "faces/meandyou.jpeg", alt:"Circle Image", class:"img-circle img-no-padding img-responsive" %>
-                  </div>
-                  <h6 class="info-title"><%= @article1 %></h6>
+                  <h6 class="info-title"><%= @article4 %></h6>
               <div class="toggle">
                   <div class="toggle-title ">
                       <p>
@@ -88,13 +73,27 @@
                       </p>
                   </div>
                   <div class="toggle-inner">
-                      <p><%= @summary1 %></p>
-                      <a href="https://www.linkedin.com/pulse/lead-entrepreneur-rj-brual-mba-cobit-5/?published=t" class="btn btn-sm btn-outline-info btn-round" target="_blank" >Learn more</a>
+                      <p><%= @summary4 %></p>
                   </div>
                   </div><!-- End Toggle -->
               </div>
           </div>
-          
+          <div class="col-md-6 col-sm-12 resposinVideo">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/2G4LyCRGxEk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <div class="img-details">
+                  <h6 class="info-title"><%= @article5 %></h6>
+              <div class="toggle">
+                  <div class="toggle-title ">
+                      <p>
+                      <span class="title-name btn btn-sm btn-link btn-info">About</span>
+                      </p>
+                  </div>
+                  <div class="toggle-inner">
+                      <p><%= @summary5 %></p>
+                  </div>
+                  </div><!-- End Toggle -->
+              </div>
+          </div>
         </div>
     </div>
 </div>

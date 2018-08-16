@@ -5,14 +5,34 @@
                     <h2 class="title"><%= @title1 %></h2>
                     <div class="typography-line">
                     <blockquote class="blockquote">
-                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                        <footer class="blockquote-footer">Someone famous in <cite title="source Title">Source Title</cite></footer>
+                        <p class="mb-0"><%= @inspiration %></p>
+                        <footer class="blockquote-footer"><%=  @owner %></footer>
                     </blockquote>
                     </div>  
                 </div>
             </div>
           <br/><br/>
             <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <%= image_tag "blogs/postgres", alt:"Rounded Image", class:"img-rounded img-responsive" %>
+                        <div class="img-details">
+                            <div class="author">
+                                <%= image_tag "faces/meandyou.jpeg", alt:"Circle Image", class:"img-circle img-no-padding img-responsive" %>
+                            </div>
+                            <h6 class="info-title"><%= @article8 %></h6>
+                        <div class="toggle">
+                            <div class="toggle-title ">
+                                <p>
+                                <span class="title-name btn btn-sm btn-link btn-info">About</span>
+                                </p>
+                            </div>
+                            <div class="toggle-inner">
+                                <p><%= @summary8 %></p>
+                                <a href="https://www.linkedin.com/pulse/how-enable-remote-access-postgresql-server-everyday-ryanjeff/" class="btn btn-sm btn-outline-info btn-round" target="_blank" >Learn more</a>
+                            </div>
+                            </div><!-- End Toggle -->
+                        </div>
+                    </div>
                     <div class="col-md-4 col-sm-12">
                         <%= image_tag "blogs/lead", alt:"Rounded Image", class:"img-rounded img-responsive" %>
                         <div class="img-details">
@@ -33,7 +53,7 @@
                             </div><!-- End Toggle -->
                         </div>
                     </div>
-                        <div class="col-md-4 col-sm-12">
+                    <div class="col-md-4 col-sm-12">
                             <%= image_tag "blogs/strategic", alt:"Rounded Image", class:"img-rounded img-responsive" %>
                         <div class="img-details">
                             <div class="author">
