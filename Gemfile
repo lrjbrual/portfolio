@@ -46,6 +46,7 @@ gem 'themify-icons-rails' , github: 'scratch-soft/themify-icons-rails'
 
 gem 'listen'
 gem 'google-analytics-rails'
+gem 'meta-tags'
 gem 'mail_form'
 gem 'gdpr'
 
