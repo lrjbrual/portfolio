@@ -6,7 +6,7 @@ class Page < MailForm::Base
 
   def headers
     {
-      :subject => "Email from your website",
+      :subject => "RyanJeff Email Contact Website",
       :to => "lrjbrual@gmail.com",
       :from => %("#{name}" <#{email}>)
     }
