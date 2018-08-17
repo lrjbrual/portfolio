@@ -16,9 +16,10 @@ Rails.application.configure do
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true
 
-    #smtp
-    config.action_mailer.default_url_options = { host: '178.128.248.253', port: 3000 }
-    # Don't care if the mailer can't send.
+  #smtp
+  config.action_mailer.default_url_options = { host: 'http://ryanjeffproject.com', port: 3000 }
+  # Don't care if the mailer can't send.
+  config.read_encrypted_secrets = true 
 
   config.action_mailer.raise_delivery_errors = false
   config.action_mailer.perform_caching = false
