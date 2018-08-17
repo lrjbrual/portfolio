@@ -46,6 +46,7 @@ Rails.application.configure do
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
   # Compress JavaScripts and CSS.
+  config.assets.css_compressor = :yui
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
 
@@ -53,7 +54,7 @@ Rails.application.configure do
   config.assets.compile = true
 
     #smtp
-    config.action_mailer.default_url_options = { host: 'http://ryanjeffproject.com', port: 3000 }
+    config.action_mailer.default_url_options = { host: 'https://ryanjeffproject.com', port: 3000 }
     # Don't care if the mailer can't send.
   
     config.action_mailer.raise_delivery_errors = false
