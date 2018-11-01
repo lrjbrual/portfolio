@@ -7,7 +7,7 @@ set :passenger_restart_with_touch, true
 set :deploy_to, '/home/ryanjeff/portfolio'
 set :rbenv_type, :user
 set :rbenv_ruby, '2.5.3'
-
+set :linked_files, %w{config/master.key}
 #set :default_env, { path: "~/.rbenv/shims:~/.rbenv/bin:$PATH" }
 #set :default_env, { rvm_bin_path: '~/.rvm/bin' }
 
