@@ -6,7 +6,7 @@ set :repo_url, "git@github.com:lrjbrual/portfolio.git"
 set :passenger_restart_with_touch, true
 set :deploy_to, '/home/ryanjeff/portfolio'
 set :rbenv_type, :user
-set :rbenv_ruby, '2.4.2'
+set :rbenv_ruby, '2.5.3'
 
 #set :default_env, { path: "~/.rbenv/shims:~/.rbenv/bin:$PATH" }
 #set :default_env, { rvm_bin_path: '~/.rvm/bin' }
